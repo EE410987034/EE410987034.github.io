@@ -1,28 +1,28 @@
 <html>
   <head>
     <style>
-      ul.a {list-style-type: square;}
+      ul.a {list-style-type: triangle;}
       
       ul.b {list-style: none;
             padding: 0;
             margin: 0;}     
       li.b::before {content: "•";
-                    padding-right: 8px;
-                    color: yellow;}
+                    padding-right: 24px;
+                    color: red;}
       
       ul.c {list-style-image: url('marker.png');}
       
-      ul.d:hover{background-color: yellow;}
+      ul.d:hover{background-color: blue;}
       
       table.e {border-collapse: collapse;}
       table.e, th.e, td.e { border: 1px solid black;}
       
       table.f { border-collapse: collapse; }
       tr.f { border: none; }
-      td.f { border-right: solid 1px #f00; 
-             border-left: solid 1px #f00;}
+      td.f { border-right: solid 10px #FF0120; 
+             border-left: solid 10px #FF2222;}
       
-      table.g, td.g, th.g { border: 1px solid #ddd;
+      table.g, td.g, th.g { border: 10px solid #FF1234;
                       text-align: left;}
       table.g { border-collapse: collapse;
              width: 90%;
@@ -33,16 +33,16 @@
              width: 100%;}
       th.h, td.h {text-align: left;
               padding: 8px;}
-      tr.h:nth-child(even){background-color: lightgrey}
-      th.h {background-color: #4CAF50;
-           color: white;}
+      tr.h:nth-child(even){background-color: yellow}
+      th.h {background-color: #FF4321;
+           color: black;}
       
       table.i { border-collapse: collapse;
               width: 100%;}
       th.i, td.i { text-align: left;
                padding: 8px;}
-      tr.i:nth-child(odd) {background-color: lightgreen;}
-      tr.i:nth-child(even) {background-color: green;}
+      tr.i:nth-child(odd) {background-color: brown;}
+      tr.i:nth-child(even) {background-color: blue;}
  
       table.j {border-collapse: collapse;
                width: 70%;
@@ -59,41 +59,41 @@
   <body>
     <h1>change list style</h1>
     <ul class="a">
-      <li>Circle type</li>
-      <li>Tea</li>
-      <li>Coca Cola</li>
+      <li>this is so so cool</li>
+      <li>how about this</li>
+      <li>yeah</li>
     </ul>
     
     <hr/>
     
     <h1>use a custom bullet for list items</h1>
     <ul class="b">
-      <li class="b">Circle type</li>
-      <li class="b">Tea</li>
-      <li class="b">Coca Cola</li>
+      <li class="b">this is so so cool</li>
+      <li class="b">how about this</li>
+      <li class="b">yeah</li>
     </ul>
   
     <hr/>
     
     <h1>use an image as a bullet for list items</h1>
     <ul class="c">
-      <li>Circle type</li>
-      <li>Tea</li>
-      <li>Coca Cola</li>
+      <li>this is so so cool</li>
+      <li>how about this</li>
+      <li>yeah</li>
     </ul>    
     
     <hr/>
     
     <h1>add to list items "hoverable" style</h1>
     <ul class="d">
-      <li>Circle type</li>
-      <li>Tea</li>
-      <li>Coca Cola</li>
+     <li>this is so so cool</li>
+      <li>how about this</li>
+      <li>yeah</li>
     </ul>
     <ul class="d">
-      <li>Circle type</li>
-      <li>Tea</li>
-      <li>Coca Cola</li>
+        <li>this is so so cool</li>
+      <li>how about this</li>
+      <li>yeah</li>
     </ul>
     
     <hr/>
@@ -101,25 +101,20 @@
     <h1>add borders to table</h1>  
     <table class="e">
       <tr class="e">
-        <th class="e">Firstname</th>
-        <th class="e">Lastname</th>
-      </tr>
-      <tr class="e">
-        <td class="e">Peter</td>
-        <td class="e">Griffin</td>
+        <th class="e">firstname</th>
+        <th class="e">lastname</th>
       </tr>
     </table>
-      
 <hr/>
 <h1>use only vertical lines in table borders</h1>  
       <table class="f">
         <tr class="f">
-          <th class="f">Firstname</th>
-          <th class="f">Lastname</th>
+          <th class="f">firstname</th>
+          <th class="f">lastname</th>
         </tr>
         <tr class="f">
-          <td class="f">Peter</td>
-          <td class="f">Griffin</td>
+          <td class="f">hung</td>
+          <td class="f">chen</td>
         </tr>
       </table>
 
@@ -127,12 +122,12 @@
 <h1>add padding to the table</h1> 
       <table class="g">
         <tr class="g">
-          <th class="g">Firstname</th>
-          <th class="g">Lastname</th>
+          <th class="g">firstname</th>
+          <th class="g">lastname</th>
         </tr>
         <tr class="g">
-          <td class="g">Peter</td>
-          <td class="g">Griffin</td>
+          <td class="g">hung</td>
+          <td class="g">chen</td>
         </tr>
       </table> 
     
@@ -141,12 +136,12 @@
       <h1>add colors to a table</h1> 
        <table class="h">
         <tr class="h">
-          <th class="h">Firstname</th>
-          <th class="h">Lastname</th>
+          <th class="h">firstname</th>
+          <th class="h">lastname</th>
         </tr>
         <tr class="h">
-          <td class="h">Peter</td>
-          <td class="h">Griffin</td>
+          <td class="h">hung</td>
+          <td class="h">chen</td>
         </tr>
       </table>
 
@@ -154,12 +149,12 @@
 <h1>use table color striping (example 18)</h1> 
        <table class="i">
         <tr class="i">
-          <th class="i">Firstname</th>
-          <th class="i">Lastname</th>
+          <th class="i">firstname</th>
+          <th class="i">lastname</th>
         </tr>
         <tr class="i">
-          <td class="i">Peter</td>
-          <td class="i">Griffin</td>
+          <td class="i">hung</td>
+          <td class="i">chen</td>
         </tr>
       </table>
     
@@ -167,19 +162,19 @@
 <h1>use "hoverable" style on a table</h1> 
         <table class="j">
         <tr class="j">
-          <th class="j">First Name</th>
-          <th class="j">Last Name</th>
-          <th class="j">Points</th>
+          <th class="j">first name</th>
+          <th class="j">last name</th>
+          <th class="j">middle name</th>
         </tr>
         <tr class="j">
-          <td class="j">Peter</td>
-          <td class="j">Griffin</td>
-          <td class="j">$100</td>
+          <td class="j">hung</td>
+          <td class="j">chen</td>
+          <td class="j">none</td>
         </tr>
         <tr class="j">
-          <td class="j">Lois</td>
-          <td class="j">Griffin</td>
-          <td class="j">$150</td>
+          <td class="j">jacky</td>
+          <td class="j">chen</td>
+          <td class="j">i dont know</td>
         </tr>
        </table>
     
@@ -187,11 +182,11 @@
 <h1>add borders spacing to a table</h1> 
        <table class="k" border="1">
           <tr class="k">
-            <td class="k">Peter</td>
-            <td class="k">Griffin</td>
+            <td class="k">how</td>
+            <td class="k">are</td>
           </tr>
           <tr class="k">
-           <td class="k">Lois</td>
+           <td class="k">you</td>
            <td class="k"></td>
           </tr>
        </table>
